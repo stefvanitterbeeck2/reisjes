@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Reisplanner</title>
+    <title>Reisplanner - Roadtrip Frankrijk</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -17,27 +17,102 @@
     </nav>
 
     <header>
-        <h1>Mijn Reisplanner 📝</h1>
-        <p>Aankomende trips, planningen en inpaklijsten.</p>
+        <h1>Roadtrip Frankrijk 🚗🇫🇷</h1>
+        <p>Planning van dag tot dag & handige details</p>
     </header>
 
     <main class="container">
-        <section class="planner-grid">
+        <!-- Dag-tot-dag planning -->
+        <section class="planner-box full-width">
+            <h2>Dagschema</h2>
+            <div class="timeline">
+
+                <!-- Maandag 7 -->
+                <div class="timeline-item">
+                    <div class="timeline-date">Ma 7</div>
+                    <div class="timeline-content">
+                        <h3>Vertrek & Aankomst Meulan-en-Yvelines</h3>
+                        <p class="time-info">⏱ Vertrek: 9u | Reistijd: 5u</p>
+                        <p class="details">Verblijf / Bezoek: <strong>Vincent</strong> (Meulan-en-Yvelines)</p>
+                    </div>
+                </div>
+
+                <!-- Dinsdag 8 -->
+                <div class="timeline-item">
+                    <div class="timeline-date">Di 8</div>
+                    <div class="timeline-content">
+                        <h3>Wandelen & Ontspanning</h3>
+                        <p>Wandelen (? kindjes)</p>
+                    </div>
+                </div>
+
+                <!-- Woensdag 9 -->
+                <div class="timeline-item">
+                    <div class="timeline-date">Wo 9</div>
+                    <div class="timeline-content">
+                        <h3>Parijs 🗼</h3>
+                        <p>Daguitstap naar Parijs.</p>
+                    </div>
+                </div>
+
+                <!-- Donderdag 10 -->
+                <div class="timeline-item">
+                    <div class="timeline-date">Do 10</div>
+                    <div class="timeline-content">
+                        <h3>Vertrek naar Soissons</h3>
+                        <p class="time-info">⏱ Reistijd: 2u</p>
+                        <p class="details">Verblijf / Bezoek: <strong>Caroline</strong> (Soissons)</p>
+                    </div>
+                </div>
+
+                <!-- Vrijdag 11 -->
+                <div class="timeline-item">
+                    <div class="timeline-date">Vr 11</div>
+                    <div class="timeline-content">
+                        <h3>Wandelen 🥾</h3>
+                        <p>Dagje wandelen in de omgeving.</p>
+                    </div>
+                </div>
+
+                <!-- Zaterdag 12 -->
+                <div class="timeline-item">
+                    <div class="timeline-date">Za 12</div>
+                    <div class="timeline-content">
+                        <h3>Vertrek naar Reims 🍾</h3>
+                        <p class="time-info">⏱ Vertrek: 10u | Reistijd: 1u</p>
+                        <p class="details">Verblijf: <strong>Hotel Reims</strong></p>
+                    </div>
+                </div>
+
+                <!-- Zondag 13 -->
+                <div class="timeline-item">
+                    <div class="timeline-date">Zo 13</div>
+                    <div class="timeline-content">
+                        <h3>Terugreis naar Huis 🏠</h3>
+                        <p class="time-info">⏱ Vertrek: 9u | Reistijd: 3u</p>
+                        <p class="details">Aankomst / Activiteit: <strong>Chiro</strong></p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Extra sectie voor inpaklijst of notities -->
+        <section class="planner-grid margin-top">
             <div class="planner-box">
-                <h2>Geplande Trips ✈️</h2>
-                <ul class="plan-list">
-                    <li><strong>Italië (Roadtrip)</strong> - Mei 2026</li>
-                    <li><strong>IJsland (Rondreis)</strong> - September 2026</li>
+                <h2>Inpaklijst Check 🎒</h2>
+                <ul class="checklist">
+                    <li><input type="checkbox"> Paspoort & Rijbewijs</li>
+                    <li><input type="checkbox"> Autopapieren & Veiligheidshesjes</li>
+                    <li><input type="checkbox"> Wandelschoenen</li>
+                    <li><input type="checkbox"> Opladers & Powerbank</li>
+                    <li><input type="checkbox"> Hotelbevestiging Reims</li>
                 </ul>
             </div>
 
             <div class="planner-box">
-                <h2>Inpaklijst Check 🎒</h2>
-                <ul class="checklist">
-                    <li><input type="checkbox"> Paspoort & Documenten</li>
-                    <li><input type="checkbox"> Camera + Oplader</li>
-                    <li><input type="checkbox"> Wereldstekker</li>
-                </ul>
+                <h2>Notities 📝</h2>
+                <p>Vergeet niet om vooraf te checken of er milieustickers nodig zijn voor de regio rond Parijs / Reims!</p>
             </div>
         </section>
     </main>
